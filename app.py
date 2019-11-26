@@ -84,11 +84,9 @@ def plot():
                             elif mul1[len(r)-1][-1]=="*": 
                                 rr[len(r)][0]=rr[len(r)][0]*rr[len(r)][1]
                                 if mulable[len(r)][1]=="+":
-                                    print("zeb")
                                     rr[len(r)-1][1]=rr[len(r)-1][1]+rr[len(r)][0]
                                 elif mulable[len(r)][1]=="-":
                                    rr[len(r)-1][1]=rr[len(r)-1][1]-rr[len(r)][0]
-                                print("rr 1: ",rr[len(r)-1][1])
                             elif mul1[len(r)-1][-1]=="/":
                                 rr[len(r)][0]=rr[len(r)][0]/rr[len(r)][1]
                                 if mulable[len(r)][1]=="+":
